@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AlienRace.ThingDef_AlienRace ParentName="BasePawn" Abstract="true" Name="BaseLediopxena">
+    </AlienRace.ThingDef_AlienRace>
+</Defs>
