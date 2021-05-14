@@ -1,1 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+<AlienRace.ThingDef_AlienRace ParentName="HumanRace">
+    <defName>TVRace_Xenoptera</defName>
+    <label>xenoptera</label>
+    <description>A baseline Xenoptera, a tough, insectoid race from a nearby planet.</description>
 
+    <alienRace>
+
+        <generalSettings>
+
+            <maleGenderProbability>0.9</maleGenderProbability>
+            <allowHumanBios>true</allowHumanBios>
+			      <humanRecipeImport>true</humanRecipeImport>
+
+            <alienPartGenerator>
+                <aliencrowntypes>
+                    <li>Average_Normal</li>
+                </aliencrowntypes>
+
+                <useGenderedHeads>true</useGenderedHeads>
+                <useGenderedBodies>false</useGenderedBodies>
+
+                <colorChannels>
+                    <li>
+                        <name>skin</name>
+                        <first Class="ColorGenerator_Options">
+                            <options>
+                                <li>
+                                    <weight>14</weight>
+                                    <only>RGBA(1.000, 1.000, 1.000, 1.000)</only>
+                                </li>
+                                <li>
+                                    <weight>14</weight>
+                                    <only>RGBA(0.150, 0.150, 0.150, 1.000)</only>
+                                </li>
+                                <li>
+                                    <weight>10</weight>
+                                    <only>RGBA(0.796, 0.773, 0.652, 1.000)</only>
+                                </li>
+                                <li>
+                                    <weight>10</weight>
+                                    <only>RGBA(0.488, 0.507, 0.488, 1.000)</only>
+                                </li>
+                                <li>
+                                    <weight>3</weight>
+                                    <only>RGBA(1.000, 0.878, 0.488, 0.988)</only>
+                                </li>
+                            </options>
+                        </first>
+                        <second Class="ColorGenerator_Options">
+                            <options>
+                                <li>
+                                    <weight>10</weight>
+                                    <only>RGBA(1.000, 1.000, 1.000, 1.000)</only>
+                                </li>
+                            </options>
+                        </second>
+                    </li>
+                </colorChannels>
+
+            </alienPartGenerator>
+
+        </generalSettings>
+
+        <graphicPaths>
+            <li>
+                <head>Xenoptera/Heads/</head>
+            </li>
+        </graphicPaths>
+
+        <hairSettings>
+            <hasHair>false</hasHair>
+        </hairSettings>
+
+        <thoughtSettings>
+        </thoughtSettings>
+
+        <relationSettings>
+        </relationSettings>
+
+        <raceRestriction>
+        </raceRestriction>
+
+        <compatibility>
+            <isSentient>true</isSentient>
+            <hasBlood>true</hasBlood>
+        </compatibility>
+    </alienRace>
+
+</AlienRace.ThingDef_AlienRace>
+</Defs>
