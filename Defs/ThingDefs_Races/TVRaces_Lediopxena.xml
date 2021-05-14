@@ -2,7 +2,8 @@
 <Defs>
     <AlienRace.ThingDef_AlienRace ParentName="BasePawn" Abstract="true" Name="BaseLediopxena">
 
-    <label>Lediopxena</label>
+    <defName>TVR_Lediopxena</defName>
+    <label>lediopxena</label>
 
     <alienRace>
 
@@ -16,6 +17,10 @@
             <minAgeForAdulthood>18</minAgeForAdulthood>
 
             <humanRecipeImport>true</humanRecipeImport>
+
+            <notXenophobistTowards>
+                <li>TVR_Lediopxena</li>
+            </notXenophobistTowards>
 
             <alienPartGenerator>
                 <aliencrowntypes>
@@ -67,19 +72,51 @@
             <hasHair>false</hasHair>
         </hairSettings>
 
-        <thoughtSettings>
-        </thoughtSettings>
-
         <relationSettings>
+            <relationChanceModifierLover>0.4</relationChanceModifierLover>
+            <relationChanceModifierExLover>0.05</relationChanceModifierExLover>
+
+            <relationChanceModifierFiance>0.05</relationChanceModifierFiance>
+            <relationChanceModifierSpouse>0.05</relationChanceModifierSpouse>
+            <relationChanceModifierExSpouse>0.05</relationChanceModifierExSpouse>
+
+            <relationChanceModifierParent>0.5</relationChanceModifierParent>
+            <relationChanceModifierChild>0.005</relationChanceModifierChild>
+            <relationChanceModifierSibling>10</relationChanceModifierSibling>
+
+            <renamer>
+                </li>
+                    <relation>Sibling</relation>
+                    <label>Clutchmate</relation>
+               </li>
+            </renamer>
         </relationSettings>
 
-        <raceRestriction>
-        </raceRestriction>
-
         <compatibility>
+            <isFlesh>true</isFlesh>
+            <isSentient>true</isSentient>
+            <hasBlood>true</hasBlood>
         </compatibility>
 
     </alienRace>
 
     </AlienRace.ThingDef_AlienRace>
+
+
+    <AlienRace.ThingDef_AlienRace ParentName="BaseLediopxena">
+        <defName>TVR_Lediopxena_Weaver</defName>
+        <description>A lediopxena with a natural talent at weaving clothes.</description>
+
+        <generalSettings>
+            <alienPartGenerator>
+                <aliencrowntypes>
+                    <li>Lediopxena_Spider</li>
+                </aliencrowntypes>
+            </alienPartGenerator>
+        </generalSettings>
+
+    </AlienRace.ThingDef_AlienRace>
+
+
+
 </Defs>
