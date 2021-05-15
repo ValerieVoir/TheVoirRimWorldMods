@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>TheVoir's Alien Races</name>
+  <author>TheVoir</author>
+  <packageId>thevoir.voir_races.core</packageId>
+  <supportedVersions>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races 2.0</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=839005762</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+	  <li>Ludeon.RimWorld</li>
+	  <li>Ludeon.RimWorld.Royalty</li>
+    <li>erdelf.HumanoidAlienRaces</li>
+  </loadAfter>
+  <description> 
+    Will add a number of various races to the game.
+
+  A big WIP right now.
+  </description>
+</ModMetaData>

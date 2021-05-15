@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <FactionDef ParentName="PlayerFactionBase">
+        <defName>TVCRM_PlayerColony</defName>
+        <label>New Arrivals</label>
+        <description>A colony of recently-arrived off-worlders.</description>
+        <isPlayer>true</isPlayer>
+        <basicMemberKind>TV_PK_Arrakina_Weaver_Player</basicMemberKind>
+        <pawnSingular>arrakinan</pawnSingular>
+        <pawnsPlural>arrakina</pawnsPlural>
+        <techLevel>Industrial</techLevel>
+
+        <backstoryFilters>
+          <li>
+            <categories>
+              <li>Offworld</li>
+            </categories>
+          </li>
+        </backstoryFilters>
+        
+    </FactionDef>
+</Defs>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AlienRace.BackstoryDef>
+        <defName>TV_BS_Arrakina_Weaver_1</defName>
+        <title>Destined Weaver</title>
+        <titleShort>Weaver</titleShort>
+        <baseDescription>[PAWN_nameDef] was born with the ability to produce silk. This has allowed [PAWN_objective] excell at creating clothing.</baseDescription>
+
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+
+        <slot>Childhood</slot>
+
+        <spawnCategories>
+            <li>Arrakina_Weaver_Backstory</li>
+        </spawnCategories>
+
+        <skillGains>
+            <li>
+                <defName>Crafting</defName>
+                <amount>4</amount>
+            </li>
+            <li>
+                <defName>Social</defName>
+                <amount>2</amount>
+            </li>
+        </skillGains>
+
+    </AlienRace.BackstoryDef>
+</Defs>
